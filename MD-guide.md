@@ -83,18 +83,26 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
     - item1
     - item2
       - sub item
+        -sub item2
 
 결과
 
 -   item1
 -   item2
     -   sub item
+        -   sub item2
 
 순서 있는 목록
 
     1. first
     2. second
     3. third
+
+결과
+
+1. first
+2. second
+3. third
 
 ------------------------------------------------------------------------
 
