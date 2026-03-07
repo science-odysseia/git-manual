@@ -177,7 +177,10 @@ sudo apt upgrade
 ![logo](cat.jpeg)
 ![logo](dog/dog.png)
 ```
+
 ![logo](cat.jpeg)
+
+![logo](dog/dog.png)
 
 logo의 경우 대체텍스트로, 이미지가 뜨지 않을 경우 이미지 대신 뜨는 텍스트.
 
