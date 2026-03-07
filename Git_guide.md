@@ -7,7 +7,7 @@
 4. 협업: 같이 일하는 사람들에게 수정사항을 쉽게 공유할 수 있게 해준다.
 
 ### 2. Git 설치하기
-# 우분투 기준
+# Ubuntu 기준
 `sudo apt-get install git-core`
 
 ### 3. Git 프로필 작성하기
@@ -29,13 +29,14 @@ git config --global user.email <"user-email">
 - ⚠️ **주의:** 토큰은 최초 생성 시에만 전체 값이 보이므로 백업 필수
 
 # git 계정 설정
+```bash
 git config --global user.email "자신의 GitHub email"
 git config --global user.name "자신의 GitHub name"
-
+```
 ### 2. GitHub 레포지토리 생성 및 연결
 1. GitHub에서 새 레포지토리 생성
 2. **HTTPS 방식** 선택
-
+```bash
 echo "# 레포지토리 이름" >> README.md
 git init
 git add README.md
@@ -43,23 +44,26 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin "레포지토리 주소"
 git push -u origin main
-
+```
 # 참고
+```bash
 git remote add origin "레포지토리 주소"
 git remote set-url origin "레포지토리 주소"
 git config --global credential.helper store
-
+```
 # 3. GitHub 업로드해보기
 
 ### 2-1. 현재 상태 확인
+```bash
 git status
 git add .
 git add "파일명"
-
+```
 ### 2-2. 불필요한 파일/폴더 무시 (.gitignore)
+```bash
 git reset
 sudo nano .gitignore
-
+```
 # 예시
 secret.txt
 *.log
@@ -68,15 +72,17 @@ node_modules/
 !important.log
 
 ### 4. 원격 저장소에서 레포지토리 받아오기
+```bash
 git clone "<레포지토리>"
 git pull
-
+```
 # 3. Git 브랜치
 
 ### 1. 브랜치란?
 - 기존 코드(master)에 영향을 주지 않고 개별 인원이 작업 가능한 독립적인 공간
 
 ### 2. 브랜치 기본 동작
+```bash
 git branch "브랜치명"
 git checkout "브랜치명"
 git switch "브랜치명"
@@ -94,20 +100,23 @@ git restore --staged .
 git reset
 git status
 git commit -m "메시지"
-
+```
 ### 3. 브랜치 합치기
+```bash
 git merge "브랜치명"
 git rebase "브랜치명"
-
+```
 ### 4. 브랜치 충돌
 # 예제는 생략
-
+```bash
 git add test.txt
 git commit -m "Conflict 해결: 두 언어 모두 환영하도록 수정"
-
+```
 # 4. Git Staging
+```bash
 git add .
 git add "파일명"
+```
 
 # git add -p 사용법
 # y: 추가, n: 추가안함, q: 종료, s: 더 작은 단위, e: 수동 수정
