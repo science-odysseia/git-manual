@@ -122,16 +122,27 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
     print("world")
     ```
 
-한 줄 코드
+    ``` bash
+    sudo apt update
+    sudo apt upgrade
+    ```
+
+결과
+
+한 줄 코드(한 줄 코드의 경우 붙여넣기 버튼이 없음)
 
 `print("hello")`
-`sudo apt install code`
 
 여러 줄 코드
 
 ``` python
 print("hello")
 print("world")
+```
+
+``` bash
+sudo apt update
+sudo apt upgrade
 ```
 
 
