@@ -174,13 +174,13 @@ sudo apt upgrade
 예시
 
 ```
-![logo](cat.jpeg)
-![logo](dog/dog.png)
+![cat](cat.jpeg)
+![dog](dog/dog.png)
 ```
 
-![logo](cat.jpeg)
+![cat](cat.jpeg)
 
-![logo](dog/dog.png)
+![dog](dog/dog.png)
 
 logo의 경우 대체텍스트로, 이미지가 뜨지 않을 경우 이미지 대신 뜨는 텍스트.
 
