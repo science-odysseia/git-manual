@@ -124,6 +124,7 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
     print("world")
     ```
 <br>
+
     ``` bash
     sudo apt update
     sudo apt upgrade
