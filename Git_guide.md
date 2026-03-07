@@ -11,9 +11,10 @@
 `sudo apt-get install git-core`
 
 ### 3. Git 프로필 작성하기
-`git config --global user.name <"username">`
-`git config --global user.email <"user-email">`
-
+```bash
+git config --global user.name <"username">
+git config --global user.email <"user-email">
+```
 ### 4. Git 최상위 브랜치 이름 설정
 # git 저장소를 처음 생성하면 브랜치 이름을 "main"으로 지정함
 `git config --global init.defaultBranch <"main">`
