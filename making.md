@@ -3,8 +3,10 @@
 ## 1. Github 회원가입 / 로그인
 1. https://github.com 접속 (이걸 보고 있다면 이미 접속했겠지만......)
 2. 계정이 없다면 'Sign up'으로 회원가입, 있다면 Sign in'으로 로그인
-|![github_main](githubimgs/github_main.png)|![github_main](githubimgs/github_signup.png)|
+
+|![github_main](githubimgs/github_main.png)|![github_signup](githubimgs/github_signup.png)|
 |---|---|
+
 3. Username과 Email은 기억하세요.
 
 
