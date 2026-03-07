@@ -262,7 +262,7 @@ sudo apt upgrade
 
 [![Python](https://img.shields.io/badge/naver-green)](https://www.naver.com)
 
-\#\#참고 : 
+\#\# 참고 : 
 
 `https://img.shields.io/badge/라벨이름-메세지-색상` 은 동적으로 배지를 생성해주는 주소.
 
