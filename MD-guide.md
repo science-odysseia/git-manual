@@ -179,6 +179,8 @@ sudo apt upgrade
 ```
 ![logo](cat.jpeg)
 
+logo의 경우 대체텍스트로, 이미지가 뜨지 않을 경우 이미지 대신 뜨는 텍스트.
+
 ------------------------------------------------------------------------
 
 # 8. 인용문
@@ -219,7 +221,7 @@ sudo apt upgrade
 # 11. 표 (Table)
 
     | 이름 | 역할 |
-    |-----|-----|
+    |-----|-----|       =========>      이게 있어야 표로 인식. 인덱스를 구분하는 역할.
     | Alice | Developer |
     | Bob | Designer |
 
@@ -250,6 +252,10 @@ sudo apt upgrade
 # 13. 배지 (README에서 많이 사용)
 
     ![Python](https://img.shields.io/badge/python-3.10-blue)
+
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+
 
 ------------------------------------------------------------------------
 
