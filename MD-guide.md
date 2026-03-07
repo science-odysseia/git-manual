@@ -175,6 +175,7 @@ sudo apt upgrade
 
 ```
 ![logo](cat.jpeg)
+![logo](dog/dog.png)
 ```
 ![logo](cat.jpeg)
 
