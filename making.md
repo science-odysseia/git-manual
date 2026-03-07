@@ -1,4 +1,5 @@
 ﻿# Git Settings
+Git 처음 배우는 사람을 위해....(사실 본인도 잘 몰라요... 안까먹으려고 작성한 문서)
 
 ## 1. Github 회원가입 / 로그인
 1. https://github.com 접속 (이걸 보고 있다면 이미 접속했겠지만......)
@@ -56,14 +57,14 @@ git --version
 
 자유롭게 입력하셔도 무방합니다만 되도록이면 본인의 github 계정에 맞게 쓰시는 걸 권장드립니다.
 
-```powershell
+``` powershell
 git config --global user.name "당신의 이름"
 git config --global user.email "당신의 이메일(xxxx@xxxxx.com 형식)"
 ```
 
 아래 명령어로 확인
 
-```powershell
+``` powershell
 git config user.name
 git config user.email
 ```
@@ -98,3 +99,6 @@ git config --global user.email "당신의 이메일(xxxx@xxxxx.com 형식)"
 git config user.name
 git config user.email
 ```
+
+## 3. Repository(레포지토리) 생성
+
