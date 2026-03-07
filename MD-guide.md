@@ -1,8 +1,4 @@
-# Practical Markdown Guide (GitHub / README 실전용)
-
-Markdown은 GitHub README, 문서 정리, 기술 노트 작성에 가장 많이 사용되는
-문법이다. 이 문서는 **실제로 개발자들이 자주 사용하는 Markdown 문법만
-정리한 실전 가이드**이다.
+# Markdown Guide 
 
 ------------------------------------------------------------------------
 
@@ -31,7 +27,7 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
 
 방법 1 (공백 두 칸)
 
-    첫번째 줄  
+    첫번째 줄(공백)(공백)  
     두번째 줄
 
 결과
@@ -81,10 +77,10 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
 
 순서 없는 목록
 
-    - item1
-    - item2
-      - sub item
-        -sub item2
+    -(공백필수)item1
+    -(공백필수)item2
+      -(공백필수)sub item
+        -(공백필수)sub item2
 
 결과
 
@@ -95,9 +91,9 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
 
 순서 있는 목록
 
-    1. first
-    2. second
-    3. third
+    1.(공백필수)first
+    2.(공백필수)second
+    3.(공백필수)third
 
 결과
 
