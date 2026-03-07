@@ -58,7 +58,7 @@ git --version
 자유롭게 입력하셔도 무방합니다만 되도록이면 본인의 github 계정에 맞게 쓰시는 걸 권장드립니다.
 
 ``` powershell
-git config --global user.name "당신의 이름"
+git config --global user.name "당신의 닉네임"
 git config --global user.email "당신의 이메일(xxxx@xxxxx.com 형식)"
 ```
 
@@ -89,7 +89,7 @@ git --version
 자유롭게 입력하셔도 무방합니다만 되도록이면 본인의 github 계정에 맞게 쓰시는 걸 권장드립니다.
 
 ``` bash
-git config --global user.name "당신의 이름"
+git config --global user.name "당신의 닉네임"
 git config --global user.email "당신의 이메일(xxxx@xxxxx.com 형식)"
 ```
 
