@@ -277,7 +277,7 @@ sudo apt upgrade
 
     내용
 
-    </details> (details 마침)
+    </details> (details 마침(/))
 
 <details>
 <summary>클릭해서 펼치기</summary>
