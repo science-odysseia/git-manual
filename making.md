@@ -56,15 +56,45 @@ git --version
 
 자유롭게 입력하셔도 무방합니다만 되도록이면 본인의 github 계정에 맞게 쓰시는 걸 권장드립니다.
 
-``` powershell
+```powershell
 git config --global user.name "당신의 이름"
 git config --global user.email "당신의 이메일(xxxx@xxxxx.com 형식)"
 ```
 
 아래 명령어로 확인
 
-``` powershell
+```powershell
 git config user.name
 git config user.email
 ```
 
+### Ubuntu 버전(Linux)
+1. 설치 시작
+
+``` bash
+sudo apt update
+sudo apt install git -y
+```
+
+아래 명령어를 쳐서 버전이 나오면 설치성공.
+
+``` bash
+git --version
+```
+2. 사용자 정보 설정
+
+아래 명령어를 입력합니다. "" 안에 있는 내용은 본인이 원하는대로 쓰시면 됩니다.
+
+자유롭게 입력하셔도 무방합니다만 되도록이면 본인의 github 계정에 맞게 쓰시는 걸 권장드립니다.
+
+``` bash
+git config --global user.name "당신의 이름"
+git config --global user.email "당신의 이메일(xxxx@xxxxx.com 형식)"
+```
+
+아래 명령어로 확인
+
+``` bash
+git config user.name
+git config user.email
+```
