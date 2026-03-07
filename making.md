@@ -7,9 +7,17 @@
 |![github_main](githubimgs/github_main.png)|![github_signup](githubimgs/github_signup.png)|
 |---|---|
 
-3. Username과 Email은 기억하세요.
-
+3. Username과 Email은 기억하세요. 나중에 쓰입니다.
 
 
 ## 2. Git 설치
-### PS(PowerShell) 버전
+### PS(PowerShell) 버전(Windows)
+winget을 이용하여 설치해보겠습니다.
+
+우선 winget이 이미 있는지 확인
+
+``` powershell
+winget --version
+```
+
+
