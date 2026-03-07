@@ -118,23 +118,23 @@ git add .
 git add "파일명"
 ```
 
-# git add -p 사용법
-# y: 추가, n: 추가안함, q: 종료, s: 더 작은 단위, e: 수동 수정
+## git add -p 사용법
+### y: 추가, n: 추가안함, q: 종료, s: 더 작은 단위, e: 수동 수정
 
-# git stash
-# 급하게 다른 브랜치로 넘어갈 때 임시 저장
+## git stash
+### 급하게 다른 브랜치로 넘어갈 때 임시 저장
 
-# 5. Commit 전략
-# 기본 전략, 메시지 작성 요령, 변경 사항 확인, 수정, 이력 수정 등
+## 5. Commit 전략
+### 기본 전략, 메시지 작성 요령, 변경 사항 확인, 수정, 이력 수정 등
 
-# 6. Git Clean
-# 추적하지 않는 파일 삭제
+## 6. Git Clean
+### 추적하지 않는 파일 삭제
 
-# 7. Git Restore
-# commit하지 않은 변경사항 되돌리기
+## 7. Git Restore
+### commit하지 않은 변경사항 되돌리기
 
-# 8. Git reflog
-# reset 등으로 사라진 커밋 히스토리 확인
+## 8. Git reflog
+### reset 등으로 사라진 커밋 히스토리 확인
 
-# 6. Git tag
-# Tag란, 종류, 사용법, 브랜치명 vs 태그명 push 비교
+## 6. Git tag
+### Tag란, 종류, 사용법, 브랜치명 vs 태그명 push 비교
