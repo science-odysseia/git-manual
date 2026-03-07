@@ -125,6 +125,7 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
 한 줄 코드
 
 `print("hello")`
+`sudo apt install code`
 
 여러 줄 코드
 
