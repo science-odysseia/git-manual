@@ -107,6 +107,8 @@ print("world")
 
     ![설명](image.png)
 
+레포지토리 폴더를 기준으로 경로 작성
+
 예시
 
     ![logo](git-manual/cat.jpeg)
