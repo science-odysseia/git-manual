@@ -119,15 +119,15 @@ Markdown은 그냥 엔터만 치면 줄바꿈이 안되는 경우가 있다.
 
 여러 줄 코드
 
-    ``` python
-    print("hello")
-    print("world")
-    ```
-
-    ``` bash
-    sudo apt update
-    sudo apt upgrade
-    ```
+| python | bash |
+|---|---|
+| ```python
+print("hello")
+print("world")
+``` | ```bash
+sudo apt update
+sudo apt upgrade
+``` |
 
 결과
 
