@@ -14,10 +14,21 @@
 ### PS(PowerShell) 버전(Windows)
 winget을 이용하여 설치해보겠습니다.
 
-우선 winget이 이미 있는지 확인
+1. 우선 winget이 이미 있는지 확인
 
 ``` powershell
 winget --version
 ```
 
+    vx.xx.xx
 
+해당 형식이 나오면 설치된 것.
+
+만약 없다면
+
+``` powershell
+Invoke-WebRequest -Uri "https://aka.ms/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -OutFile "$env:TEMP\AppInstaller.msixbundle"
+Add-AppxPackage -Path "$env:TEMP\AppInstaller.msixbundle"
+```
+
+실행 후 ps 종료 후 재시작. 
