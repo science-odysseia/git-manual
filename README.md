@@ -1,4 +1,9 @@
-﻿# Git Settings
+﻿#### 안내문
+md기초 페이지
+
+[MD-guide](MD-guide.md)
+
+# Git Settings
 Git 처음 배우는 사람을 위해....(사실 본인도 잘 몰라요... 안까먹으려고 작성한 문서)
 
 ## 1. Github 회원가입 / 로그인
