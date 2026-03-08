@@ -161,11 +161,11 @@ sudo apt upgrade
 
 꼭 사이트일 필요 없음. 상대경로도 가능함.
 
-    [README](../README.md)
+    [README](README.md)
 
 결과
 
-[README](../README.md)
+[README](README.md)
 
 ------------------------------------------------------------------------
 

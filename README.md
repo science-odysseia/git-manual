@@ -106,4 +106,9 @@ git config user.email
 ```
 
 ## 3. Repository(레포지토리) 생성
+Repository(레포지토리)란?
+
+그냥 간단히 Git 저장소에 올릴 대표 저장 폴더 정도로 생각하면 됩니다.
+
+
 
