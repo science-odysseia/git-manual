@@ -124,15 +124,15 @@ sudo apt install openssh-client
     SHA256:************ user@linux
     The key's randomart image is:
     +--[ED25519 256]--+
-    |.==XXO^=o=.      |
-    | .=+.Xo+=.E      |
-    |    + .o +.      |
-    |     +.. .       |
-    |      +.S        |
-    |       o..       |
-    |   .  ..         |
-    |    o.o          |
-    |     =o          |
+    |   .o+*B+.       |
+    |  . =O+=+o.      |
+    |   .o.=o..       |
+    |    . o +        |
+    |     . S .       |
+    |      + .        |
+    |     . .         |
+    |    .o.          |
+    |     E*          |
     +----[SHA256]-----+
 
 
