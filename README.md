@@ -86,12 +86,65 @@ sudo apt install gh -y
 ```
 
 ### GitHub 계정 연결
+github 파일들은 온라인, 내 파일들은 오프라인에 있습니다.
+
+이 둘을 연결하기 위한 보안 조치를 하나 만들어줘야 합니다.
+
+우리는 `SSH`를 이용해서 연결해 보려고 합니다.
+
+먼저 SSH키를 생성해보겠습니다.
+
+``` bash
+ssh-keygen
+```
+
+만약 없다는 오류메세지가 뜨면, 아래 명령어로 설치해줍시다.
+
+``` bash
+sudo apt update
+sudo apt install openssh-client
+```
+
+`ssh-keygen`을 실행하면 아래 항목들이 한 줄씩 뜰 텐데, 모두 엔터를 쳐 줍시다.
+
+이 경우 저장된 경로를 기억해주세요. 이 키를 나중에 사용할 것입니다.
+
+혹은 아래처럼 직접 경로를 입력해도 됩니다. 
+
+다만 리눅스와 다르게 ~를 홈 디렉토리로 인식하지 않으니, 경로를 풀어주세요.
+
+또한 경로를 지정할 땐 경로상 모든 폴더가 이미 존재해야 합니다. 미리 만들고 해주세요.
+
+    Enter file in which to save the key (/home/scienceodysseia/.ssh/id_ed25519): /home/user/MyProject/.ssh/id_ed25519
+    Enter passphrase (empty for no passphrase): 
+    Enter same passphrase again: 
+    Your identification has been saved in /home/user/MyProject/.ssh/id_ed25519
+    Your public key has been saved in /home/user/MyProject/.ssh/id_ed25519.pub
+    The key fingerprint is:
+    SHA256:************ user@linux
+    The key's randomart image is:
+    +--[ED25519 256]--+
+    |.==XXO^=o=.      |
+    | .=+.Xo+=.E      |
+    |    + .o +.      |
+    |     +.. .       |
+    |      +.S        |
+    |       o..       |
+    |   .  ..         |
+    |    o.o          |
+    |     =o          |
+    +----[SHA256]-----+
+
+
+
 
 
 ``` bash
 # 로그인
 gh auth login
+```
 
+``` bash
 # 새 레포지토리 생성
 gh repo create MyProject --public --source=. --remote=origin
 ```
