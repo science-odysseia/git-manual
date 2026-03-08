@@ -139,20 +139,32 @@ sudo apt install openssh-client
     |     E*          |
     +----[SHA256]-----+
 
-**중간에 나오는 SHA256:\*\*\*\*\*\*\*\*\*\*\*\* user@linux를 복사 또는 다른곳에 저장해주세요.**
 
 위의 경우, `.ssh` 폴더 안에 `id_ed25519` 라는 비밀키와, `id_ed25519.pub`라는 공개키 2개가 생성되어 있을 겁니다.
 
-우리는 `id_ed25519.pub`이라는 공개키를 사용할 것입니다
+우리는 `id_ed25519.pub`이라는 공개키를 사용할 것입니다.
+
+생성된 공개키의 내용을 확인해봅시다
+
+``` bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+`~/.ssh/id_ed25519.pub` 대신 자신이 `id_ed25519.pub`을 저장한 경로를 넣으셔도 됩니다.
+
+    ssh-ed25519 ***************************************** user@BOOK-*********
+
+**나오는 결과 줄 전체를 복사해주세요.**
 
 키를 만들었으면 이제 자신의 계정에 등록을 해야겠죠?
 
 이거도 처음 한번만 하면 됩니다.
 
 1. [Github](https://github.com)에 로그인하세요.
-2. 우측 상단에 있는 자신의 아이콘을 누르고, Settings에 들어가세요.
-3. 
-|![GitHub-Settings](githubimgs/github_settings.png)||
+2. 우측 상단에 있는 자신의 아이콘을 누르고, `Settings`에 들어가세요.
+3. 왼쪽 목록에 `SSH and GPG keys`에 들어가서, 오른쪽 상단에 `New SSH key`를 누르세요.
+4. 
+|![GitHub-Settings](githubimgs/github_settings.png)|![GitHub-sshkey](githubimgs/github_sshkey.png)|
 |---|---|
 
 
