@@ -264,9 +264,9 @@ sudo apt upgrade
 
 예시
 
-    [![Python](https://img.shields.io/badge/naver-green)](https://www.naver.com)
+    [![Naver](https://img.shields.io/badge/naver-green)](https://www.naver.com)
 
-[![Python](https://img.shields.io/badge/naver-green)](https://www.naver.com)
+[![Naver](https://img.shields.io/badge/naver-green)](https://www.naver.com)
 
 \#\# 참고 : 
 
