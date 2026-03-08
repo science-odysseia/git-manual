@@ -92,6 +92,8 @@ github 파일들은 온라인, 내 파일들은 오프라인에 있습니다.
 
 우리는 `SSH`를 이용해서 연결해 보려고 합니다.
 
+**`ssh-keygen`을 통해 SSH 키를 생성하고 GitHub에 등록하는 과정은 처음 1회만 하면 됩니다.**
+
 먼저 SSH키를 생성해보겠습니다.
 
 ``` bash
@@ -115,6 +117,8 @@ sudo apt install openssh-client
 
 또한 경로를 지정할 땐 경로상 모든 폴더가 이미 존재해야 합니다. 미리 만들고 해주세요.
 
+~~랜덤하게 다 바꿔놨으니까 해킹할 생각은 접어라~~
+
     Enter file in which to save the key (/home/scienceodysseia/.ssh/id_ed25519): /home/user/MyProject/.ssh/id_ed25519
     Enter passphrase (empty for no passphrase): 
     Enter same passphrase again: 
@@ -135,7 +139,21 @@ sudo apt install openssh-client
     |     E*          |
     +----[SHA256]-----+
 
+**중간에 나오는 SHA256:\*\*\*\*\*\*\*\*\*\*\*\* user@linux를 복사 또는 다른곳에 저장해주세요.**
 
+위의 경우, `.ssh` 폴더 안에 `id_ed25519` 라는 비밀키와, `id_ed25519.pub`라는 공개키 2개가 생성되어 있을 겁니다.
+
+우리는 `id_ed25519.pub`이라는 공개키를 사용할 것입니다
+
+키를 만들었으면 이제 자신의 계정에 등록을 해야겠죠?
+
+이거도 처음 한번만 하면 됩니다.
+
+1. [Github](https://github.com)에 로그인하세요.
+2. 우측 상단에 있는 자신의 아이콘을 누르고, Settings에 들어가세요.
+3. 
+|![GitHub-Settings](githubimgs/github_settings.png)||
+|---|---|
 
 
 
