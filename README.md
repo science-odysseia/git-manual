@@ -3,6 +3,10 @@ md기초 페이지
 
 [MD-guide](MD-guide.md)
 
+git 레포지토리까지 완료했다면
+
+[Git-Tutorials](git-tutorials.md)
+
 # Git Settings
 Git 처음 배우는 사람을 위해....(사실 본인도 잘 몰라요... 안까먹으려고 작성한 문서)
 
@@ -211,16 +215,48 @@ gh auth login
     ✓ Configured git protocol
     ! Authentication credentials saved in plain text
     ✓ Logged in as science-odysseia
-    ! You were already logged in to this account
 
 이런식으로 뜨면 성공입니다.
 
+### 레포지토리 생성
+이제 `MyProject` 폴더로 레포지토리를 만들어봅시다.
+
+아래 명령어를 실행하세요.
 
 ``` bash
 # 새 레포지토리 생성
 gh repo create MyProject --public --source=. --remote=origin
 ```
 
+--public : 
+
+레포지토리에는 2가지 옵션이 있습니다. Public과 Private 입니다.
+
+Public은 모두에게 공개한다는 의미입니다.
+
+--source=. :
+
+.은 현재 디렉토리, 즉 `MyProject`의 내용을 쓰겠다는 내용입니다.
+
+--remote=origin:
+
+나중에 나오겠지만 Git 원격저장소에 등록할 때는 아래처럼 등록합니다.
+
+``` bash
+git remote add origin https://github.com/username/MyProject.git
+```
+
+이 원격 저장소의 별명(alias)를 'origin'으로 사용하겠다는 말 정도로 이해하시면 될 것 같습니다.
+
+<br>
+
+<br>
+
+여기까지 하면 텅 빈 레포지토리가 생성되었습니다.
+
+본격적인 사용법은 아래 링크를 통해 알아봅시다.
+
+[Git-Tutorials](git-tutorials.md)
 
 
 
