@@ -11,10 +11,12 @@ README.md 과정이 완료되었다면
 ``` bash
 git add "파일"
 git commit -m "커멘트"
-git push "옵션" "원격저장소" "[브랜치"
+git push "옵션" "원격저장소" "브랜치"
 ```
 
-`git add "파일 또는 폴더"` 부터 살펴봅시다.
+``` bash
+git add "파일 또는 폴더"
+``` 
 
 `git add .`, `git add README.md` 이런식으로 쓰이며
 
