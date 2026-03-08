@@ -234,17 +234,17 @@ gh auth login
 gh repo create MyProject --public --source=. --remote=origin
 ```
 
---public : 
+`--public` : 
 
 레포지토리에는 2가지 옵션이 있습니다. Public과 Private 입니다.
 
 Public은 모두에게 공개한다는 의미입니다.
 
---source=. :
+`--source=.` :
 
-.은 현재 디렉토리, 즉 `MyProject`의 내용을 사용하겠다는 내용입니다.
+`.`은 현재 디렉토리, 즉 `MyProject`의 내용을 사용하겠다는 내용입니다.
 
---remote=origin:
+`--remote=origin`:
 
 나중에 나오겠지만 Git 원격저장소에 등록할 때는 아래처럼 등록합니다.
 
