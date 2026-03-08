@@ -33,6 +33,7 @@ sudo apt install git -y
 ``` bash
 git --version
 ```
+
 2. 사용자 정보 설정
 
 아래 명령어를 입력합니다. "" 안에 있는 내용은 본인이 원하는대로 쓰시면 됩니다.
@@ -94,6 +95,8 @@ github 파일들은 온라인, 내 파일들은 오프라인에 있습니다.
 
 **`ssh-keygen`을 통해 SSH 키를 생성하고 GitHub에 등록하는 과정은 처음 1회만 하면 됩니다.**
 
+#### SSH키 생성 및 등록
+
 먼저 SSH키를 생성해보겠습니다.
 
 ``` bash
@@ -144,7 +147,7 @@ sudo apt install openssh-client
 
 우리는 `id_ed25519.pub`이라는 공개키를 사용할 것입니다.
 
-생성된 공개키의 내용을 확인해봅시다
+생성된 공개키의 내용을 확인해봅시다.
 
 ``` bash
 cat ~/.ssh/id_ed25519.pub
@@ -161,18 +164,57 @@ cat ~/.ssh/id_ed25519.pub
 이거도 처음 한번만 하면 됩니다.
 
 1. [Github](https://github.com)에 로그인하세요.
+
 2. 우측 상단에 있는 자신의 아이콘을 누르고, `Settings`에 들어가세요.
+
+![GitHub-Settings](githubimgs/github_settings.png)
+
 3. 왼쪽 목록에 `SSH and GPG keys`에 들어가서, 오른쪽 상단에 `New SSH key`를 누르세요.
-4. 
-|![GitHub-Settings](githubimgs/github_settings.png)|![GitHub-sshkey](githubimgs/github_sshkey.png)|
-|---|---|
+
+![GitHub-sshkey](githubimgs/github_sshkey.png)
+
+4. 방금 복사한 줄 전체를 key에 넣어주시고, 원하는 이름으로 Title을 설정한 다음 `Add SSH key` 버튼을 누르세요.
+
+![GitHub-sshkey2](githubimgs/github_sshkey2.png)
 
 
+#### 터미널 로그인
+이제 터미널에서 로그인을 해 봅시다. (역시 1회성 작업)
+
+브라우저에서 GitHub에 로그인을 한 다음, 창을 아래로 내려놓습니다.
+
+다음 터미널에서 아래 명령어를 실행합니다.
 
 ``` bash
 # 로그인
 gh auth login
 ```
+
+    ? What account do you want to log into? GitHub.com
+    ? What is your preferred protocol for Git operations on this host? SSH
+    ? Upload your SSH public key to your GitHub account? Skip
+    ? How would you like to authenticate GitHub CLI? Login with a web browser
+
+    ! First copy your one-time code: ****-****
+    Press Enter to open github.com in your browser...
+
+엔터를 누르면 브라우저가 열리면서 아래 사진처럼 코드를 입력하게 시킵니다
+
+`First copy your one-time code: ****-****` 이 코드를 입력하면 됩니다.
+
+![gh-login1](githubimgs/gh_access1.png)
+
+필요하면 메일 인증을 시킬 수도 있는데 해 주면 됩니다.
+
+    ✓ Authentication complete.
+    - gh config set -h github.com git_protocol ssh
+    ✓ Configured git protocol
+    ! Authentication credentials saved in plain text
+    ✓ Logged in as science-odysseia
+    ! You were already logged in to this account
+
+이런식으로 뜨면 성공입니다.
+
 
 ``` bash
 # 새 레포지토리 생성
