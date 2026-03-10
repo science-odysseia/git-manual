@@ -43,6 +43,9 @@ Add-AppxPackage -Path "$env:TEMP\AppInstaller.msixbundle"
 winget install --id Git.Git -e --source winget
 ```
 
+**실행 후 반드시 PS를 종료 후 재시작해주세요. 안 그러면 여전히 에러납니다.**
+
+
 설치가 제대로 되었는지 확인해봅시다.
 
 ``` powershell
