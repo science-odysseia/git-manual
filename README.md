@@ -187,7 +187,7 @@ cat ~/.ssh/id_ed25519.pub
 
 
 #### 터미널 로그인
-이제 터미널에서 로그인을 해 봅시다. (역시 1회성 작업)
+이제 터미널에서 로그인을 해 봅시다.
 
 브라우저에서 GitHub에 로그인을 한 다음, 창을 아래로 내려놓습니다.
 
@@ -254,6 +254,8 @@ git remote add origin https://github.com/username/MyProject.git
 
 이 원격 저장소의 별명(alias)를 'origin'으로 사용하겠다는 말 정도로 이해하시면 될 것 같습니다.
 
+--------------------------------
+
 \#\# 참고: 레포지토리 삭제법
 
 ``` bash
@@ -265,7 +267,16 @@ gh repo delete "username"/"repo-name"
 
 # 또는 강제로 삭제
 gh repo delete "username"/"repo-name" --confirm
+
 ```
+
+삭제 권한이 없다고 뜨면
+
+``` bash
+gh auth refresh -h github.com -s delete_repo
+```
+
+----------------------------------------------
 
 <br>
 
