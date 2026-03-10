@@ -266,6 +266,30 @@ git remote add origin https://github.com/username/MyProject.git
 
 이 원격 저장소의 별명(alias)를 'origin'으로 사용하겠다는 말 정도로 이해하시면 될 것 같습니다.
 
+--------------------------------
+
+\#\# 참고: 레포지토리 삭제법
+
+``` powershell
+# GitHub CLI 로그인
+gh auth login
+
+# 저장소 삭제 (프롬프트 확인 포함)
+gh repo delete "username"/"repo-name"
+
+# 또는 강제로 삭제
+gh repo delete "username"/"repo-name" --confirm
+
+```
+
+삭제 권한이 없다고 뜨면
+
+``` powershell
+gh auth refresh -h github.com -s delete_repo
+```
+
+----------------------------------------------
+
 <br>
 
 <br>
