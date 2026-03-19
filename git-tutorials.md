@@ -9,6 +9,8 @@ README.md 과정이 완료되었다면
 <details>
 <summary> 1. 업로드 명령어 3종 </summary>
 
+------------------------------------------------------------------------------------
+
 먼저 Git에 업로드하는 3가지 필수 명령어입니다.
 
 ``` bash
@@ -125,6 +127,10 @@ upstream 설정으로 이를 이용에 첫 푸시를 한 경우 이후에는 `gi
 |git commit -m|커멘트|
 |git push|업로드|
 
+<details>
+
+<summary> 2. 다운로드 명령어 </summary>
+
 ----------------------------------------------------------------------
 ## 클론(clone)과 풀(pull)
 
@@ -224,12 +230,24 @@ git rebase --abort
 ``` bash
 git push origin main -f
 ```
+
+</details>
+
+
+<details>
+
+<summary> 3. 협업자 초대 </summary>
+
 ----------------------------------------------------------------------
 ## 협업자 초대하기(Collaborator)
 
 내가 만든 레포지토리에 다른 사람이 작업할 수 있게 하려면
 
 먼저 그 사람의 계정을 내 레포지토리에 초대해야 합니다.
+
+<details>
+
+<summary> 1. 웹에서 초대하는 방법 </summary>
 
 https://github.com 에서 하는방법
 
@@ -249,12 +267,21 @@ https://github.com 에서 하는방법
 
 ![repository_img3](githubimgs/repository4.png)
 
-물론 이 모든 과정을 터미널로만도 할 수 있습니다. 단, `username`으로만 가능합니다.(이메일 불가)
+</details>
+
+<details>
+
+<summary> 2. 터미널로 초대하는 방법 </summary>
+
+터미널을 이용해서 초대할 수도 있습니다. 단, `username`으로만 가능합니다.(이메일 불가)
 
 ``` bash
 gh api -X PUT /repos/"레포지토리 소유자"/"레포지토리 이름"/collaborators/"추가할 사람의 username"
 ```
 
+</details>
+
+</details>
 
 ----------------------------------------------------------------------
 ## 브랜치(branch)
