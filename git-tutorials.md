@@ -228,25 +228,27 @@ git push origin main -f
 
 https://github.com 에서 하는방법
 
-1. https://github.com 에서 자신의 레포지토리에 들어간다.
+1. https://github.com 에서 자신의 레포지토리에 들어갑니다.
 
-2. `Settings`에 들어간다.
+2. `Settings`에 들어갑니다.
 
 ![repository_img](githubimgs/repository1.png)
 
-3. 왼쪽 목록의 `Collaborator`를 누른다.
+3. 왼쪽 목록의 `Collaborator`를 눌러주세요.
 
 ![repository_img2](githubimgs/repository2.png)
 
-4. `Add People`을 누르고, 등록할 사람의 username 또는 이메일을 입력한 후 `Add to Repository`를 눌러 추가한다.
+4. `Add People`을 누르고, 등록할 사람의 username 또는 이메일을 입력한 후 `Add to Repository`를 눌러 추가하면 됩니다.
 
 ![repository_img3](githubimgs/repository3.png)
 
 ![repository_img3](githubimgs/repository4.png)
 
-물론 이 모든 과정을 터미널로만도 할 수 있다.
+물론 이 모든 과정을 터미널로만도 할 수 있습니다. 단, `username`으로만 가능합니다.(이메일 불가)
 
-
+``` bash
+gh api -X PUT /repos/"레포지토리 소유자"/"레포지토리 이름"/collaborators/"추가할 사람의 username"
+```
 
 
 ----------------------------------------------------------------------
