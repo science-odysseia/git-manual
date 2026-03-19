@@ -7,9 +7,10 @@ README.md 과정이 완료되었다면
 이제 내용을 채워봅시다.
 
 <details>
-<summary> <h3> 1. 업로드 명령어 3종 </h3> </summary>
+<summary> <h2> 1. 업로드 명령어 3종 </h2> </summary>
 
 ------------------------------------------------------------------------------------
+## Git 업로드 명령어 3종
 
 먼저 Git에 업로드하는 3가지 필수 명령어입니다.
 
@@ -129,7 +130,7 @@ upstream 설정으로 이를 이용에 첫 푸시를 한 경우 이후에는 `gi
 
 <details>
 
-<summary> 2. 다운로드 명령어 </summary>
+<summary> <h2 >2. 다운로드 명령어 </h2> </summary>
 
 ----------------------------------------------------------------------
 ## 클론(clone)과 풀(pull)
@@ -236,7 +237,7 @@ git push origin main -f
 
 <details>
 
-<summary> 3. 협업자 초대 </summary>
+<summary> <h2> 3. 협업자 초대 </h2> </summary>
 
 ----------------------------------------------------------------------
 ## 협업자 초대하기(Collaborator)
@@ -247,7 +248,7 @@ git push origin main -f
 
 <details>
 
-<summary> 1. 웹에서 초대하는 방법 </summary>
+<summary> <h3> 1. 웹에서 초대하는 방법 </h3> </summary>
 
 https://github.com 에서 하는방법
 
@@ -271,7 +272,7 @@ https://github.com 에서 하는방법
 
 <details>
 
-<summary> 2. 터미널로 초대하는 방법 </summary>
+<summary> <h3> 2. 터미널로 초대하는 방법 </h3> </summary>
 
 터미널을 이용해서 초대할 수도 있습니다. 단, `username`으로만 가능합니다.(이메일 불가)
 
@@ -282,6 +283,10 @@ gh api -X PUT /repos/"레포지토리 소유자"/"레포지토리 이름"/collab
 </details>
 
 </details>
+
+<details>
+
+<summary> <h2> 4. 브랜치 </h2> </summary>
 
 ----------------------------------------------------------------------
 ## 브랜치(branch)
@@ -300,7 +305,7 @@ branch는 직역하면 나뭇가지라는 의미입니다.
 
 ~~사실 회사를 안다녀봐서 잘 모르겠...크흠~~
 
-
+</details>
 
 
 
