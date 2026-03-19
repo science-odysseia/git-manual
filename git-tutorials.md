@@ -219,6 +219,29 @@ git rebase --abort
 ``` bash
 git push origin main -f
 ```
+----------------------------------------------------------------------
+## 협업자 초대하기(Collaborator)
+
+내가 만든 레포지토리에 다른 사람이 작업할 수 있게 하려면
+
+먼저 그 사람의 계정을 내 레포지토리에 초대해야 합니다.
+
+https://github.com 에서 하는방법
+
+1. https://github.com 에서 자신의 레포지토리에 들어간다.
+
+2. `Settings`에 들어간다.
+
+![repository_img](githubimgs/repository1.png)
+
+3. 왼쪽 목록의 `Collaborator`를 누른다.
+
+![repository_img2](githubimgs/repository2.png)
+
+4. `Add People`을 누르고, 등록할 사람의 username 또는 이메일을 입력한 후 `Add to Repository`를 눌러 추가한다.
+|![repository_img3](githubimgs/repository3.png)|
+|---|
+|![repository_img3](githubimgs/repository4.png)|
 
 ----------------------------------------------------------------------
 ## 브랜치(branch)
