@@ -240,7 +240,7 @@ https://github.com 에서 하는방법
 
 4. `Add People`을 누르고, 등록할 사람의 username 또는 이메일을 입력한 후 `Add to Repository`를 눌러 추가한다.
 |![repository_img3](githubimgs/repository3.png)|
-|---|
+|----------------------------------------------|
 |![repository_img3](githubimgs/repository4.png)|
 
 ----------------------------------------------------------------------
