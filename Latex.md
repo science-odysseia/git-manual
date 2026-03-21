@@ -135,15 +135,15 @@ $$ \begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \end{bmatrix} $$
 
 소괄호(pmatrix)
 
-    $$\begin{pmatrix} x \\\\ y \end{pmatrix}$$
+    $$ \begin{pmatrix} x \\\\ y \end{pmatrix} $$
 
-$$\begin{pmatrix} x \\\\ y \end{pmatrix}$$
+$$ \begin{pmatrix} x \\\\ y \end{pmatrix} $$
 
 행렬식(vmatrix)
 
-    $$\det(A) = \begin{vmatrix} a & b \\\\ c & d \end{vmatrix}$$
+    $$ \det(A) = \begin{vmatrix} a & b \\\\ c & d \end{vmatrix} $$
 
-$$\det(A) = \begin{vmatrix} a & b \\\\ c & d \end{vmatrix}$$
+$$ \det(A) = \begin{vmatrix} a & b \\\\ c & d \end{vmatrix} $$
 
 행렬에서 ... 표시 방법
 `\cdots` : $\cdots$
