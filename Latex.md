@@ -25,7 +25,7 @@ $$
 |곱셈| `a \cdot b` : '.'기호, `a \times b` : 'X' 기호|
 |나눗셈| `\frac{분자}{분모}` |
 |지수| `a^b` |
-|아래첨자| `a_n` |
+|아래첨자| `a_n`, `a_{ij}` |
 |루트| `sqrt{x}`, `sqrt[n]{x}` = `x ^ (1/n)`  |
 
 ## 삼각/로그 함수
@@ -82,8 +82,12 @@ $$
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
 
 ## 합/곱/적분
-$\sum_{i=1}^{n} a_n$
+$$
+\sum_{i=1}^{n} a_n
+$$
+
 $\prod_{i=1}^{n} b_n$
+
 $\int_{a}^{b} f(x)$
 
 $\left\\{ \frac{a}{b} \right\\}$
