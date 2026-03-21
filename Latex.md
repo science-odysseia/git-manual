@@ -151,12 +151,12 @@ $$\det(A) = \begin{vmatrix} a & b \\\\ c & d \end{vmatrix}$$
 `$\ddots` : $\ddots$
 
     $$
-\mathbf{A} = \begin{bmatrix}
-a_{11} & \cdots & a_{1n} \\
-\vdots & \ddots & \vdots \\
-a_{m1} & \cdots & a_{mn}
-\end{bmatrix}
-$$
+    \mathbf{A} = \begin{bmatrix}
+    a_{11} & \cdots & a_{1n} \\
+    \vdots & \ddots & \vdots \\
+    a_{m1} & \cdots & a_{mn}
+    \end{bmatrix}
+    $$
 
 $$
 \mathbf{A} = \begin{bmatrix}
