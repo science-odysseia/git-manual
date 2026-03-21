@@ -28,11 +28,11 @@ $$
 
 |그리스 문자(소문자)|코드|그리스문자(대문자)|코드(대문자)|
 |---|---|---|---|
-|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
-|$\beta$|`\beta`|$\Beta$|`\Beta`|
-|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
-|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
-|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|\-|\-|
+|$\beta$|`\beta`|\-|\-|
+|$\gamma$|`\gamma`|$\Gamma$|`\Gamma`|
+|$\delta$|`\delta`|$\Delta$|`\Delta`|
+|$\epsilon$|`\epsilon`|\-|\-|
 |$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
 |$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
 |$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
