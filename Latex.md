@@ -20,9 +20,9 @@ $$
 
 |코드|설명|결과|
 |---|---|---|
-|`\mathbf{x}`| 굵게 | $\mathbf{x}$ |
-|`\mathit{x}`| 기울임 | $\mathit{x}$ |
-|`\mathrm{x}`| 일반 텍스트 | $\mathrm{x}$ |
+|`\mathbf{y}`| 굵게 | $\mathbf{y}$ |
+|`\mathit{y}`| 기울임 | $\mathit{y}$ |
+|`\mathrm{y}`| 일반 텍스트 | $\mathrm{y}$ |
 
 ## 기본연산자
 
