@@ -1,5 +1,8 @@
 ﻿# LATEX 수식 
 
+<details>
+<summary> <h2> 0. 수식 기본 표기법 </h2> </summary>
+
 수식 기본 표현 : 양 끝에 **띄어쓰기 없이** $를 붙인다.
 
     $a + b = c$
@@ -26,6 +29,11 @@ $$
 
 다만 md상의 도표 안에서 `$$` `$$`은 사용 불가하니 조심.
 
+</details>
+
+<details>
+<summary> <h2> 1. 기본연산자 </h2> </summary>
+
 ## 기본연산자
 
 |기본연산자|수식표현|결과|
@@ -43,6 +51,11 @@ $$
 |초과, 미만| `>`, `<` | $>$, $<$ |
 |이상, 이하| `\ge`, `\le` | $\ge$, $\le$ |
 
+</details>
+
+<details>
+<summary> <h2> 2. 삼각/로그함수 </h2> </summary>
+
 ## 삼각/로그 함수
 |함수|코드|
 |:---:|:---:|
@@ -52,6 +65,11 @@ $$
 |$\log x$|`\log x`|
 |$\log_a x$|`\log_a x`|
 |$\ln x$|`\ln x`|
+
+</details>
+
+<details>
+<summary> <h2> 3. 괄호표기 </h3> </summary>
 
 ## 괄호 표기
 | 왼쪽 괄호 | 표기 | 오른쪽 괄호 | 표기 |
@@ -68,8 +86,10 @@ $$
 
 `\left.`, `\right.` 처럼 `.`을 이용하면 된다.
 
+</details>
+
 <details>
-<summary> <h3> 그리스 문자 표기 </h3> </summary>
+<summary> <h2> 4. 그리스 문자 표기법 </h2> </summary>
 
 ## 그리스 문자 표기
 
@@ -100,6 +120,9 @@ $$
 
 </details>
 
+<details>
+<summary> <h2> 5. 합/곱/적분표기법 </h2> </summary>
+
 ## 합/곱/적분
 
 |코드|결과|디스플레이 모드|결과|
@@ -107,6 +130,11 @@ $$
 |`\sum_{i=1}^{n} a_n`|$\sum_{i=1}^{n} a_n$|`$\displaystyle \sum_{i=1}^{n} a_n$`|$\displaystyle \sum_{i=1}^{n} a_n$|
 |`$\prod_{i=1}^{n} b_n$`|$\prod_{i=1}^{n} b_n$|`$\displaystyle \prod_{i=1}^{n} b_n$`|$\displaystyle \prod_{i=1}^{n} b_n$|
 |`$\int_{a}^{b} f(x)$`|$\int_{a}^{b} f(x)$|`$\displaystyle \int_{a}^{b} f(x)$`|$\displaystyle \int_{a}^{b} f(x)$|
+
+</details>
+
+<details>
+<summary> <h2> 6. 필요, 충분, 필요충분조건 화살표 활용법 </h2> </summary>
 
 ## 화살표 활용
 
@@ -129,6 +157,8 @@ $\leftrightarrow$
     \leftrightarrow
 
 $a \leftrightarrow b$
+
+</details>
 
 ## 극한
 
