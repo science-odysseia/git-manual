@@ -20,18 +20,6 @@ $$
 a + b = c
 $$
 
-## 강조 / 스타일
-
-|코드|설명|결과|
-|---|---|---|
-|`\mathbf{f(x)}`| 굵게 | $\mathbf{f(x)}$ |
-|`\mathit{f(x)}`| 기울임 | $\mathit{f(x)}$ |
-|`\mathrm{f(x)}`| 일반 텍스트 | $\mathrm{f(x)}$ |
-
-$$
-\mathbf{Vector} \neq \mathit{Variable} \neq \mathrm{Unit}
-$$
-
 ## 기본연산자
 
 |기본연산자|수식표현|결과|
@@ -117,3 +105,18 @@ $$
 |`\lim_{x \to \infty} f(x)`|$\lim_{x \to \infty} f(x)$|`$\displaystyle \lim_{x \to \infty} f(x)$`|$\displaystyle \lim_{x \to \infty} f(x)$|
 
 \#\# 참고 : `\infty` : $\infty$
+
+## 조건식
+
+    \begin{cases} x^2 & x > 0 0 & x \le 0 \end{cases}
+
+$\begin{cases} x^2 & x > 0 0 & x \le 0 \end{cases}$
+
+## 벡터 기호 표시
+
+    \vec{v}
+
+$\vec{v}$
+
+## 행렬
+
