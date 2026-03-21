@@ -41,9 +41,9 @@ $$
 ## 괄호 표기
 | 왼쪽 괄호 | 표기 | 오른쪽 괄호 | 표기 |
 |---|---|---|---|
-| $\left( \right.$ | `\left( x` | $\left. \right)$ | `x \right)` |
-| $\left\\{ \right.$ | `\left\\{ x` | $\left. \right\\}$ | `x \right\\}` |
-| $\left[ \right.$ | `\left[ x` | $\left. \right]$ | `x \right]` |
+| $\left( \right.$ | `\left(` | $\left. \right)$ | `\right)` |
+| $\left\\{ \right.$ | `\left\\{` | $\left. \right\\}$ | `\right\\}` |
+| $\left[ \right.$ | `\left[` | $\left. \right]$ | `\right]` |
 
 `{`만 `\\{`로 입력하자.
 
