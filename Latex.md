@@ -121,9 +121,9 @@ $$ \begin{cases} x^2 & x > 0 \\\\ 0 & x \le 0 \end{cases} $$
 
 ## 벡터 기호 표시
 
-    \vec{v}
+    \vec{AB}
 
-$\vec{v}$
+$\vec{AB}$
 
 ## 행렬
 
