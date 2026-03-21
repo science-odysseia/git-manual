@@ -72,6 +72,4 @@ $$
 |$\psi$|`\psi`|$\Psi$|`\Psi`|
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
 
-$a \cdot b$
-
-$a \times b$
+\left\{ \frac{a}{b} \right\}
