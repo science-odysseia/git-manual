@@ -82,12 +82,9 @@ $$
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
 
 ## 합/곱/적분
-$$
-\sum_{i=1}^{n} a_n
-$$
 
-$\prod_{i=1}^{n} b_n$
-
-$\int_{a}^{b} f(x)$
-
-$\left\\{ \frac{a}{b} \right\\}$
+|코드|결과|디스플레이 모드|결과|
+|---|---|---|---|
+|`\sum_{i=1}^{n} a_n`|$\sum_{i=1}^{n} a_n$|`$displaystyle \sum_{i=1}^{n} a_n$`|$displaystyle \sum_{i=1}^{n} a_n$|
+|`$\prod_{i=1}^{n} b_n$`|$\prod_{i=1}^{n} b_n$|`$$displaystyle \prod_{i=1}^{n} b_n$`|$displaystyle \prod_{i=1}^{n} b_n$|
+|`$\int_{a}^{b} f(x)$`|$\int_{a}^{b} f(x)$|`$displaystyle \int_{a}^{b} f(x)$`|$displaystyle \int_{a}^{b} f(x)$|
