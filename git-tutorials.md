@@ -276,9 +276,9 @@ git push origin main -f
 
 <summary> <h3> 1. 웹에서 초대하는 방법 </h3> </summary>
 
-https://github.com 에서 하는방법
+[Github](https://github.com) 에서 하는방법
 
-1. https://github.com 에서 자신의 레포지토리에 들어갑니다.
+1. [Github](https://github.com) 에서 자신의 레포지토리에 들어갑니다.
 
 2. `Settings`에 들어갑니다.
 
