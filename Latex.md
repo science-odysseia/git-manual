@@ -146,9 +146,9 @@ $$\begin{pmatrix} x \\\\ y \end{pmatrix}$$
 $$\det(A) = \begin{vmatrix} a & b \\\\ c & d \end{vmatrix}$$
 
 행렬에서 ... 표시 방법
-`$\cdots` : $\cdots$
-`$\vdots` : $\vdots$
-`$\ddots` : $\ddots$
+`\cdots` : $\cdots$
+`\vdots` : $\vdots$
+`\ddots` : $\ddots$
 
     $$
     \mathbf{A} = \begin{bmatrix}
