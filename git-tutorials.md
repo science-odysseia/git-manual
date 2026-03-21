@@ -252,6 +252,8 @@ git rebase --abort
 
 `-f` 또는 `--force` 옵션을 사용해서 푸시하면 됩니다.
 
+~~팀원한테 욕먹을 각오하고 사용하시면 됩니다~~
+
 ``` bash
 git push origin main -f
 ```
