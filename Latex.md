@@ -42,9 +42,7 @@ $$
 | 왼쪽 괄호 | 표기 | 오른쪽 괄호 | 표기 |
 |---|---|---|---|
 | $\left( \right.$ | `\left(` | $\left. \right)$ | `\right)` |
-| $$
-\left\{ \right.
-$$ | `\left\{` | $\left. \right\}$ | `\right\}` |
+| $\left\{ \right.$ | `\left\{` | $\left. \right\}$ | `\right\}` |
 | $\left[ \right.$ | `\left[` | $\left. \right]$ | `\right]` |
 
 ## 그리스 문자 표기
