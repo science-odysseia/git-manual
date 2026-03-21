@@ -20,9 +20,9 @@ $$
 
 |코드|설명|결과|
 |---|---|---|
-|`\mathbf{y = ax + b}`| 굵게 | $\mathbf{y = ax + b}$ |
-|`\mathit{y = ax + b}`| 기울임 | $\mathit{y = ax + b}$ |
-|`\mathrm{y = ax + b}`| 일반 텍스트 | $\mathrm{y = ax + b}$ |
+|`\mathbf{ABC = XYZ}`| 굵게 | $\mathbf{ABC = XYZ}$ |
+|`\mathit{ABC = XYZ}`| 기울임 | $\mathit{ABC = XYZ}$ |
+|`\mathrm{ABC = XYZ}`| 일반 텍스트 | $\mathrm{ABC = XYZ}$ |
 
 ## 기본연산자
 
