@@ -55,4 +55,6 @@ $$
 |$\psi$|`\psi`|$\Psi$|`\Psi`|
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
 
-$\sqrt[b]{c}$
+$a \cdot b$
+
+$a \times b$
