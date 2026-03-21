@@ -26,5 +26,20 @@ $$
 |아래첨자| `a_1` |
 |루트| `sqrt{x}`, `sqrt[n]{x}` = `x ^ (1/n)`  |
 
+|그리스 문자(소문자)|코드|그리스문자(대문자)|코드(대문자|)
+|---|---|---|---|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\beta$|`\beta`|$\Beta$|`\Beta`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+|$\alpha$|`\alpha`|$\Alpha$|`\Alpha`|
+
 
 $\sqrt[b]{c}$
