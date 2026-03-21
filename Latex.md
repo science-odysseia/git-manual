@@ -45,7 +45,7 @@ $$
 | $\left\\{ \right.$ | `\left\\{ x` | $\left. \right\\}$ | `x \right\\}` |
 | $\left[ \right.$ | `\left[ x` | $\left. \right]$ | `x \right]` |
 
-`\{`만 `\\\{`로 입력하자.
+`{`만 `\\{`로 입력하자.
 
 
 
