@@ -30,6 +30,8 @@ git init
 rm -rf .git
 ```
 
+</details>
+
 <details>
 <summary> <h2> 1. 업로드 명령어 3종 </h2> </summary>
 
