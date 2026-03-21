@@ -82,8 +82,8 @@ $$
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
 
 ## 합/곱/적분
-$\sum_{i=1}^{n}$
-$\prod_{i=1}^{n}$
-$\int_{a}^{b}$
+$\sum_{i=1}^{n} a_n$
+$\prod_{i=1}^{n} b_n$
+$\int_{a}^{b} f(x)$
 
 $\left\\{ \frac{a}{b} \right\\}$
