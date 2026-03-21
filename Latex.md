@@ -89,7 +89,8 @@ $$
 |`$\prod_{i=1}^{n} b_n$`|$\prod_{i=1}^{n} b_n$|`$\displaystyle \prod_{i=1}^{n} b_n$`|$\displaystyle \prod_{i=1}^{n} b_n$|
 |`$\int_{a}^{b} f(x)$`|$\int_{a}^{b} f(x)$|`$\displaystyle \int_{a}^{b} f(x)$`|$\displaystyle \int_{a}^{b} f(x)$|
 
+## 극한
 
-$$
-\lim_{x \to 0} f(x)
-$$
+|코드|결과|디스플레이 모드|결과|
+|---|---|---|---|
+|`\lim_{x \to 0} f(x)`|$\lim_{x \to 0} f(x)$|`$\displaystyle \lim_{x \to 0} f(x)$`|$\displaystyle \lim_{x \to 0} f(x)$|
