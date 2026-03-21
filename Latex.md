@@ -88,7 +88,7 @@ $\left| \frac{a}{b} \right|$
 | $\left\\{ \right.$ | `\left\\{` | $\left. \right\\}$ | `\right\\}` |
 | $\left[ \right.$ | `\left[` | $\left. \right]$ | `\right]` |
 
-`{`만 `\\{`로 입력하자.
+`{`과 `}`만  `\\{`과 `\\}`로 입력하자.
 
 참고로 라텍스 문법은 괄호 짝이 맞지 않으면 에러난다.
 
@@ -152,7 +152,7 @@ $f'''(x)$
 2. 1차미분
 
     \frac{d}{dx} f(x)
-    
+
     \frac{df}{dx}
 
 $\frac{d}{dx} f(x)$
