@@ -90,4 +90,6 @@ $$
 |`$\int_{a}^{b} f(x)$`|$\int_{a}^{b} f(x)$|`$\displaystyle \int_{a}^{b} f(x)$`|$\displaystyle \int_{a}^{b} f(x)$|
 
 
-$\lim_{x \to 0}$
+$$
+\lim_{x \to 0} f(x)
+$$
