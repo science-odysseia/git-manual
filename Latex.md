@@ -110,7 +110,7 @@ $$
 
     \begin{cases} x^2 & x > 0 0 & x \le 0 \end{cases}
 
-$$ \begin{cases} x^2 & x > 0 \\ 0 & x \le 0 \end{cases} $$
+$\begin{cases} x^2 & x > 0 \\\\ 0 & x \le 0 \end{cases}$
 
 ## 벡터 기호 표시
 
