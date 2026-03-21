@@ -51,6 +51,16 @@ $$
 |초과, 미만| `>`, `<` | $>$, $<$ |
 |이상, 이하| `\ge`, `\le` | $\ge$, $\le$ |
 
+절댓값 표기 : | |
+
+로 해도 되지만 분수식처럼 식이 길어질 경우 늘어나지 않는다.
+
+이 경우 `\left| `, ` \right|`로 덮어주면 늘어나게 만들 수 있다.
+
+    \left| \frac{a}{b} \right|
+
+$\left| \frac{a}{b} \right|$
+
 </details>
 
 <details>
@@ -138,7 +148,17 @@ $$
 
 ## 미분표기법
 
-1차미분
+1. 프라임 표기
+
+    f'(x)
+    f''(x)
+    f'''(x)
+
+$f'(x)$
+$f''(x)$
+$f'''(x)$
+
+2. 1차미분
 
     \frac{d}{dx} f(x)
     \frac{df}{dx}
@@ -147,18 +167,35 @@ $\frac{d}{dx} f(x)$
 
 $\frac{df}{dx}$
 
-n차미분
+3. n차미분
 
     \frac{d^n f}{dx^n}
 
 $\frac{d^n f}{dx^n}$
 
-편미분
+4. 편미분
 
     \frac{\partial f}{\partial x}
 
 $\frac{\partial f}{\partial x}$
 
+5. n차 편미분
+
+    \frac{\partial^n f}{\partial x^n}
+
+$\frac{\partial^n f}{\partial x^n}$
+
+6. 혼합 편미분
+
+    \frac{\partial^2 f}{\partial x \partial y}
+
+$\frac{\partial^2 f}{\partial x \partial y}$
+
+7. 값 대입 미분식
+
+    \left. \frac{df}{dx} \right|_{x=0}
+
+$\left. \frac{df}{dx} \right|_{x=0}$
 
 </details>
 
