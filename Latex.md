@@ -147,7 +147,17 @@ $\frac{d}{dx} f(x)$
 
 $\frac{df}{dx}$
 
+n차미분
 
+    \frac{d^n f}{dx^n}
+
+$\frac{d^n f}{dx^n}$
+
+편미분
+
+    \frac{\partial f}{\partial x}
+
+$\frac{\partial f}{\partial x}$
 
 
 </details>
