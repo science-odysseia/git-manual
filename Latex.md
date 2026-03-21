@@ -152,6 +152,7 @@ $f'''(x)$
 2. 1차미분
 
     \frac{d}{dx} f(x)
+    
     \frac{df}{dx}
 
 $\frac{d}{dx} f(x)$
