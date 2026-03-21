@@ -150,7 +150,7 @@ $\Rightarrow$, $\Leftarrow$
     \Rightarrow
     \Leftarrow
 
-$a \Rightarrow b$, $\Leftarrow$
+$a \Rightarrow b$, $a \Leftarrow b$
 
 $\leftrightarrow$
 
@@ -160,6 +160,9 @@ $a \leftrightarrow b$
 
 </details>
 
+<details>
+<summary> <h2> 7. 극한표기법 </h2> </summary>
+
 ## 극한
 
 |코드|결과|디스플레이 모드|결과|
@@ -168,12 +171,22 @@ $a \leftrightarrow b$
 
 \#\# 참고 : `\infty` : $\infty$
 
+</details>
+
+<details>
+<summary> <h2> 8. 조건분할식 </h2> </summary>
+
 ## 조건식
 무조건 `$$` `$$` 구문으로 쓸 것. `$` `$`로 쓰면 인식 못할 확률 큼.
 
     $$ \begin{cases} x^2 & x > 0 \\\\ 0 & x \le 0 \end{cases} $$
 
 $$ \begin{cases} x^2 & x > 0 \\\\ 0 & x \le 0 \end{cases} $$
+
+</details>
+
+<details>
+<summary> <h2> 9. 벡터 표기법 </h2> </summary>
 
 ## 벡터 기호 표시
 
@@ -185,6 +198,11 @@ $\vec{v}$
     \overrightarrow{ABCDEFG}
 
 $\overrightarrow{ABCDEFG}$
+
+</details>
+
+<details>
+<summary> <h2> 10. 행렬표기법 </h2> </summary>
 
 ## 행렬
 
@@ -226,3 +244,5 @@ a_{11} & \cdots & a_{1n} \\
 a_{m1} & \cdots & a_{mn}
 \end{bmatrix}
 $$
+
+</details>
