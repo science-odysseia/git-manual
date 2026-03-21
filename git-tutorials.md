@@ -284,7 +284,7 @@ git push origin main -f
 
 ![repository_img](githubimgs/repository1.png)
 
-3. 왼쪽 목록의 `Collaborator`를 눌러주세요.
+3. 왼쪽 목록의 `Collaborators`를 눌러주세요.
 
 ![repository_img2](githubimgs/repository2.png)
 
