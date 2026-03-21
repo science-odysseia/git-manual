@@ -3,6 +3,10 @@ md기초 페이지
 
 [MD-guide](MD-guide.md)
 
+Latex 표기
+
+[Latex](Latex.md)
+
 git 레포지토리까지 완료했다면
 
 [Git-Tutorials](git-tutorials.md)
