@@ -57,8 +57,10 @@ $$
 
 이 경우 `\left| `, ` \right|`로 덮어주면 늘어나게 만들 수 있다.
 
+    |\frac{a}{b}|
     \left| \frac{a}{b} \right|
 
+$|\frac{a}{b}|$
 $\left| \frac{a}{b} \right|$
 
 </details>
