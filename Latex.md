@@ -127,6 +127,6 @@ $\vec{v}$
 
 ## 행렬
 
-    $$ \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} $$
+    $$ \begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \end{bmatrix} $$
 
-$$ \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} $$
+$$ \begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \end{bmatrix} $$
