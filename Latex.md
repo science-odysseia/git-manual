@@ -42,7 +42,7 @@ $$
 | 왼쪽 괄호 | 표기 | 오른쪽 괄호 | 표기 |
 |---|---|---|---|
 | $\left( x \right.$ | `\left( x` | $\left. x \right)$ | `x \right)` |
-| $\left\{ x} \right.$ | `\left\{ x` | $\left. x \right\}$ | `x \right\}` |
+| $\left\{ x \right.$ | `\left\{ x` | $\left. x \right\}$ | `x \right\}` |
 | $\left[ \right.$ | `\left[ x` | $\left. \right]$ | `x \right]` |
 
 ## 그리스 문자 표기
