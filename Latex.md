@@ -93,6 +93,6 @@ $$
 
 |코드|결과|디스플레이 모드|결과|
 |---|---|---|---|
-|`\lim_{x \to \infty} f(x)`|$\lim_{x \to -\infty} f(x)$|`$\displaystyle \lim_{x \to \infty} f(x)$`|$\displaystyle \lim_{x \to \infty} f(x)$|
+|`\lim_{x \to \infty} f(x)`|$\lim_{x \to \infty} f(x)$|`$\displaystyle \lim_{x \to \infty} f(x)$`|$\displaystyle \lim_{x \to \infty} f(x)$|
 
 \#\# 참고 : `\infty` : $\infty$
