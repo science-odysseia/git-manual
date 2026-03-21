@@ -12,6 +12,10 @@ $a + b = c$
     a + b = c
     $$
 
+또는 엔터 없이
+
+    $$ a + b = c $$
+
 $$
 a + b = c
 $$
@@ -20,11 +24,13 @@ $$
 
 |코드|설명|결과|
 |---|---|---|
-|`\mathbf{ABC = XYZ}`| 굵게 | $\mathbf{ABC = XYZ}$ |
-|`\mathit{ABC = XYZ}`| 기울임 | $\mathit{ABC = XYZ}$ |
-|`\mathrm{ABC = XYZ}`| 일반 텍스트 | $\mathrm{ABC = XYZ}$ |
+|`\mathbf{f(x)}`| 굵게 | $\mathbf{f(x)}$ |
+|`\mathit{f(x)}`| 기울임 | $\mathit{f(x)}$ |
+|`\mathrm{f(x)}`| 일반 텍스트 | $\mathrm{f(x)}$ |
 
-$\mathbf{Vector} \neq \mathit{Variable} \neq \mathrm{Unit}$
+$$
+\mathbf{Vector} \neq \mathit{Variable} \neq \mathrm{Unit}
+$$
 
 ## 기본연산자
 
