@@ -126,5 +126,5 @@ $\vec{v}$
 ## 행렬
 |코드|행렬|
 |---|---|
-|`$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$`|$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$|
+|`$$ \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} $$`|$$ \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} $$|
 
