@@ -127,7 +127,7 @@ $$ \begin{cases} x^2 & x > 0 \\\\ 0 & x \le 0 \end{cases} $$
 
     \vec{AB}
 
-$\vec{AB}$
+$\vec{ABCDEFGHIJK}$
 
 ## 행렬
 
