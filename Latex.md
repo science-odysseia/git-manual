@@ -45,6 +45,10 @@ $$
 | $\left\\{ \right.$ | `\left\\{ x` | $\left. \right\\}$ | `x \right\\}` |
 | $\left[ \right.$ | `\left[ x` | $\left. \right]$ | `x \right]` |
 
+`\{`만 `\\\{`로 입력하자.
+
+
+
 ## 그리스 문자 표기
 
 |그리스 문자(소문자)|코드|그리스문자(대문자)|코드(대문자)|
@@ -72,4 +76,4 @@ $$
 |$\psi$|`\psi`|$\Psi$|`\Psi`|
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
 
-$\left\{ \frac{a}{b} \right\}$
+$\left\\{ \frac{a}{b} \right\\}$
