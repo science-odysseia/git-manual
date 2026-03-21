@@ -72,4 +72,4 @@ $$
 |$\psi$|`\psi`|$\Psi$|`\Psi`|
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
 
-\left\{ \frac{a}{b} \right\}
+$\left\{ \frac{a}{b} \right\}$
