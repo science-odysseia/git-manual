@@ -41,7 +41,7 @@ $$
 |덧셈| `a + b` |$a + b$|
 |뺄셈| `a - b` |$a - b$|
 |곱셈| `a \cdot b`, `a \times b`|$a \cdot b$, $a \times b$|
-|나눗셈| `\frac{분자}{분모}` |$\frac{분자}{분모}|
+|나눗셈| `\frac{분자}{분모}` |$\frac{분자}{분모}$|
 |지수| `a^b` | $a^b$ | 
 |아래첨자| `a_n`, `a_{xy}` | $a_n$, $a_{xy}$ |
 |루트| `\sqrt{x}`, `\sqrt[n]{x}` = `x ^ (1/n)` | $\sqrt{x}$, $\sqrt[3]{x}$ |
