@@ -68,6 +68,8 @@ $$
 
 `\left.`, `\right.` 처럼 `.`을 이용하면 된다.
 
+<details>
+<summary> <h3> 그리스 문자 표기 </h3> </summary>
 
 ## 그리스 문자 표기
 
@@ -95,6 +97,8 @@ $$
 |$\chi$|`\chi`|\-|\-|
 |$\psi$|`\psi`|$\Psi$|`\Psi`|
 |$\omega$|`\omega`|$\Omega$|`\Omega`|
+
+</details>
 
 ## 합/곱/적분
 
