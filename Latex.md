@@ -24,6 +24,8 @@ $$
 a + b = c
 $$
 
+다만 md상의 도표 안에서 `$$` `$$`은 사용 불가하니 조심.
+
 ## 기본연산자
 
 |기본연산자|수식표현|결과|
@@ -124,8 +126,7 @@ $$ \begin{cases} x^2 & x > 0 \\\\ 0 & x \le 0 \end{cases} $$
 $\vec{v}$
 
 ## 행렬
-| 코드 | 행렬 |
-|---|---|
-| `$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$` | $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ |
+
+    $$ \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} $$
 
 $$ \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} $$
