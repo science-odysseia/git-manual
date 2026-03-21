@@ -205,6 +205,10 @@ print("Hello")
 print("Local_files")
 ```
 
+이 상황에서 Git에 있는 `example.py`를 내려받는다고 해봅시다.
+
+그럼 내 컴퓨터에 있는 `example.py`는 어떻게 될까요?
+
 여기서 `clone`과 `pull`의 차이점이 드러납니다.
 
 `clone`은 내 로컬과 상관없이 원격저장소의 내용을 내 로컬에 덮어씌웁니다.
