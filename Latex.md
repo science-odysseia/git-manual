@@ -24,6 +24,8 @@ $$
 |`\mathit{ABC = XYZ}`| 기울임 | $\mathit{ABC = XYZ}$ |
 |`\mathrm{ABC = XYZ}`| 일반 텍스트 | $\mathrm{ABC = XYZ}$ |
 
+$\mathbf{Vector} \neq \mathit{Variable} \neq \mathrm{Unit}$
+
 ## 기본연산자
 
 |기본연산자|수식표현|결과|
