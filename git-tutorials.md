@@ -413,7 +413,7 @@ git config --get init.defaultBranch
 
 레포지토리 A 아래 아래와 같이 폴더 및 파일이 있다고 해봅시다.
 
-![branch3.png][githubimgs/branch3.png]
+![branch3.png](githubimgs/branch3.png)
 
 
 
