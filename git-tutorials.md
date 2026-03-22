@@ -335,7 +335,7 @@ branch는 직역하면 나뭇가지라는 의미입니다.
 
 ~~사실 회사를 안다녀봐서 잘 모르겠...크흠~~
 
-[Branch.png](githubimgs/branch.png)
+![Branch.png](githubimgs/branch.png)
 
 여기까지 무슨말인지 잘 감이 안 오실 겁니다.
 
