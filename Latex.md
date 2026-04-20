@@ -35,11 +35,17 @@ $$
 이 안에서는 `$$` 대신 `$`만을 사용할 것.
 
 -------------------------------------------------------
-## 0. 기울임 없이 글자 그대로 쓰기
+## 0. 글꼴
 
-`hello`, `\mathrm{hello}`
+|원본|`hello`|$hello$|
+|:---:|:---:|:---:|
+|로마체 직립|`\mathrm{hello}`|$\mathrm{hello}$|
+|굵은 직립체|`\mathbf{hello}`|$\mathbf{hello}$|
+|기울임체|`\mathit{hello}`|$\mathit{hello}$|
+|타자기체|`\mathtt{hello}`|$\mathtt{hello}$|
+|sans-serif 글꼴|`\mathsf{hello}`|$\mathsf{hello}$|
 
-$hello$, $\mathrm{hello}$
+
 
 --------------------------------------------------------
 
