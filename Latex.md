@@ -37,14 +37,15 @@ $$
 -------------------------------------------------------
 ## 0. 글꼴
 
-|원본|`hello`|$hello$|
-|:---:|:---:|:---:|
-|로마체 직립|`\mathrm{hello}`|$\mathrm{hello}$|
-|굵은 직립체|`\mathbf{hello}`|$\mathbf{hello}$|
-|기울임체|`\mathit{hello}`|$\mathit{hello}$|
-|타자기체|`\mathtt{hello}`|$\mathtt{hello}$|
-|sans-serif 글꼴|`\mathsf{hello}`|$\mathsf{hello}$|
+|원본|`hello`|
+|:---:|:---:|
+|로마체 직립|`\mathrm{hello}`|
+|굵은 직립체|`\mathbf{hello}`|
+|기울임체|`\mathit{hello}`|
+|타자기체|`\mathtt{hello}`|
+|sans-serif 글꼴|`\mathsf{hello}`|
 
+GitHub Latex는 글씨체가 잘 적용이 되지 않으므로 웬만하면 사용은 하지 말자.
 
 
 --------------------------------------------------------
