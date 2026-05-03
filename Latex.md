@@ -94,6 +94,7 @@ $\left| \frac{a}{b} \right|$
 |교집합|`\cap`|$\cap$|
 |공집합|`\emptyset`|$\emptyset$|
 
+||||
 |:---:|:---:|:---:|
 |자연수 집합|`\mathbb{N}`|$\mathbb{N}$|
 |정수 집합|`\mathbb{Z}`|$\mathbb{Z}$|
