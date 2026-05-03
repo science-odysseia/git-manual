@@ -88,6 +88,16 @@ $\left| \frac{a}{b} \right|$
 |원소이다|`\ni`|$\ni$|
 |원소가 아니다|`\notin`|$\notin$|
 |원소가 아니다|`\not\ni`|$\not\ni$|
+|부분집합|`\subset`, `subseteq`|$\subset$, $\subseteq$|
+|부분집합|`\supset`, `supseteq`|$\supset$, $\supseteq$|
+|합집합|`\cup`|$\cup$|
+|교집합|`\cap`|$\cap$|
+|공집합|`\emptyset`|$\emptyset$|
+
+|:---:|:---:|:---:|
+|자연수 집합|`\mathbb{N}`|$\mathbb{N}$|
+|정수 집합|`\mathbb{Z}`|$\mathbb{Z}$|
+|실수 집합|`\mathbb{R}`|$\mathbb{R}$|
 --------------------------------------------------------
 ## 4. 삼각/로그함수 
 
