@@ -210,6 +210,26 @@ gh auth login
     ! First copy your one-time code: ****-****
     Press Enter to open github.com in your browser...
 
+간혹 Ubuntu를 막 새로 설치하거나 혹은 새로운 환경에서 아래와 같은 오류가 뜰 수 있는데
+
+이는 Ubuntu환경에서 브라우저를 여는 xdg프로그램이 없어서 그런 것입니다.
+
+    ! Failed opening a web browser at https://github.com/login/device exec: "xdg-open,x-www-browser,www-browser,wslview": executable file not found in $PATH Please try entering the URL in your browser manually
+
+아래 명령어를 통해 xdg 프로그램을 설치하고 `gh auth login`을 다시 실행해 주세요.
+
+``` bash
+sudo apt update
+sudo apt install xdg-utils
+```
+
+wsl 사용중이라면 아래 명령어를 추가로 설치해야 합니다.
+
+```bash
+sudo apt install wslu
+```
+
+
 엔터를 누르면 브라우저가 열리면서 아래 사진처럼 코드를 입력하게 시킵니다
 
 `First copy your one-time code: ****-****` 이 코드를 입력하면 됩니다.
